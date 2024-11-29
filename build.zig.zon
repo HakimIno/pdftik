@@ -1,0 +1,11 @@
+// build.zig.zon
+.{
+    .name = "pdftik",
+    .version = "0.0.1",
+    .dependencies = .{},
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+}

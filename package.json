@@ -1,0 +1,35 @@
+{
+  "name": "pdftik",
+  "version": "0.0.2",
+  "description": "A high-performance utility for converting HTML to PDF with ease and speed. Perfect for generating professional PDFs from web pages, reports, or dynamic HTML content efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "install": "zig build",
+    "test": "jest"
+  },
+  "keywords": [
+    "pdftik"
+  ],
+  "author": "kimsnow",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "zig-build": "^0.3.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-api-headers": "^1.4.0",
+    "wkhtmltopdf": "^0.4.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.js"
+    ],
+    "transform": {},
+    "moduleFileExtensions": [
+      "js"
+    ]
+  }
+}
